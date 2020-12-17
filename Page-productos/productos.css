@@ -1,0 +1,63 @@
+    /* ---- --- ---- ESTILOS DE LETRAS Y FONDO ---- --- ----  */
+body{
+    background-color: #66eabc;
+}
+nav{
+    background-color: #ff7dd7;
+}
+.carritoBackground {
+    background-color: #ff7dd7;
+}
+    /* ---- --- ---- PRODUCTOS (30 más o menos) ---- --- ----  */
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-column-gap: 250px;
+    grid-row-gap: 20px;
+}
+.productos .box img{
+    width: 150%;
+}
+    /* ---- --- ---- MENU DE NAVEGACIÓN ---- --- ----  */
+div.menu-principal{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+    background-color: #05580b;
+    margin: 15px auto auto 360px;
+}
+ul.menu > li{
+    float: left;
+    padding: 0px 18px
+}
+nav img{
+    width: 64px;
+    height: 64px;
+}
+nav img #perfil{
+    width: 90px;
+    height: 64px;
+}
+nav li:hover{
+    background-color: rgba(255, 52, 169, 0.88);
+    transition: all 0.7s ease;
+}
+.divider{
+    background: #ffffff;
+}
+    /* ---- --- ---- BOTONES ADD TO CART ---- --- ----  */
+.addTocart{
+}
+.material-icons {
+    width: 70px;
+    height: 70px;
+}
+    /* ---- --- ---- CARRITO ---- --- ----  */
+.itemImage{
+    width: 180px;
+    border-radius: 30px;
+}
+.itemQuantity{
+    max-width: 40px;
+}

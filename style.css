@@ -1,0 +1,96 @@
+    /* ---- --- ---- ESTILOS DE LETRAS Y FONDO ---- --- ---- */
+body{
+    background-color: #66eabc;
+}
+.eslogan {
+    font-family: 'Pacifico', cursive;
+    color: #819add;
+}
+h2{
+    font-family: 'EB Garamond', serif;
+    color: #819add;
+}
+
+nav .brand-logo{
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+}
+nav{
+    background-color: #ff7dd7;
+}
+/* ---- --- ---- MENU DE NAVEGACIÓN PRINCIPAL ---- --- ----  */
+div.menu-principal{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+    background-color: #05580b;
+    margin: 15px auto auto 360px;
+}
+ul.menu > li{
+    float: left;
+    padding: 0px 18px
+}
+nav img{
+    width: 64px;
+    height: 64px;
+}
+nav img #perfil{
+    width: 90px;
+    height: 64px;
+}
+nav li:hover{
+    background-color: rgba(255, 52, 169, 0.88);
+    transition: all 0.7s ease;
+}
+    /* ---- --- ---- MENU DE REDES SOCIALES ---- --- ----  */
+div.menu-redes{
+    margin: 100px 0px;
+    width: auto;
+    position: fixed;
+    right: 0; 
+    top: 136px; 
+    z-index: 2000px;
+}
+div.menu-redes img{
+    width: 50px;
+    height: 51px;
+}
+div.menu-redes ul li{
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    background-color: #66eabc;
+    color: white;
+    padding: 4px 10px;
+}
+div.menu-redes li.facebook:hover{
+    background-color: darkblue;
+    font-size: 18px;
+    transition: all 0.7s ease;
+}
+div.menu-redes li.instagram:hover{
+    background-color: darkmagenta;
+    font-size: 18px;
+    transition: all 0.7s ease;
+}
+div.menu-redes li.twitter:hover{
+    background-color: rgba(0, 105, 208, 0.93);
+    font-size: 18px;
+    transition: all 0.7s ease;
+}
+div.menu-redes li.correo:hover{
+    background-color: darkgray;
+    font-size: 18px;
+    transition: all 0.7s ease;
+}
+
+    /* ---- --- ---- PRODUCTOS EN CAJA ---- --- ----  */
+.row .col .row .col img{
+    width: 250px;
+    height: 250px;
+    border-radius: 4px
+}
+.row .col .row .col{
+    margin: auto 2.5em;
+}
